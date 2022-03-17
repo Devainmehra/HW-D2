@@ -1,0 +1,186 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ position: relative;
+ }
+
+ body{
+  overflow-y: hidden;
+}
+
+ .back-image{
+  z-index: -1;
+  position: absolute;
+  height: fit-content;
+ }
+
+ a:link{
+  text-decoration: none;
+  color: black;
+ } 
+
+ .option-1 a{
+  color: rgb(255, 255, 255);
+ }
+
+ .option-2 a{
+  color: rgb(255, 255, 255);
+ }
+ .option-3 a{
+  color: rgb(255, 255, 255);
+ }
+ .option-4 a{
+  color: rgb(255, 255, 255);
+ }
+
+ 
+ 
+ .blue-part{
+   background-color: #27a5d4;
+  width: screen;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ .header{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ }
+
+ .option-1{
+  position: absolute;
+  top : 25px;
+  left: 70px;
+ }
+
+ .option-1 :hover{
+  color: #F3DB04;
+  font-size: larger;
+ }
+
+.option-3 :hover{
+  color: #F3DB04;
+  font-size: larger;
+ }
+
+ .option-2 :hover{
+  color: #F3DB04;
+  font-size: larger;
+ }
+
+
+
+ .option-2{
+  position: absolute;
+  top : 25px;
+  left: 280px;
+    /* text-decoration: underline; */
+
+ }
+
+ .option-2:link{
+  color: antiquewhite;
+ }
+
+ .option-3{
+  position: absolute;
+  top : 25px;
+  left: 490px;
+ }
+
+ .option-4{
+  position: absolute;
+  top : 25px;
+  left: 700px;
+ }
+
+ .linear-back{
+  position: absolute;
+width: 959px;
+height: 473px;
+left: 284px;
+top: 176px;
+
+background: linear-gradient(132.05deg, rgba(235, 215, 185, 0.75) -6.04%, rgba(228, 216, 244, 0.75) 36.47%, rgba(84, 99, 255, 0.75) 102.43%);
+mix-blend-mode: lighten;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+backdrop-filter: blur(56px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 45px;
+ }
+
+ .form{
+  position: absolute;
+  z-index: 3;
+  font-size: 28px;
+  color: black;
+  top: 300px;
+  left: 340px;
+ }
+
+ .form-label{
+  padding: 120px;
+ }
+ .email-text{
+  top: -50px;
+ }
+.email-box{
+ left: -250px;
+ top: -20px;
+ width: 400px;
+ height: 30px;
+}
+.password{
+ top: 0px;
+}
+.password-box{
+ left: -200px;
+ background-color: rgb(255, 255, 255);
+ width: 400px;
+ height: 30px;
+ top: 30px;
+}
+
+.form-text{
+ top: -10px;
+ left: 120px;
+ font-size: 15px;
+}
+
+.form-check-input{
+ top: 75px;
+ left: 120px;
+}
+.form-check-label{
+ top: 80px;
+ left: 120px;
+}
+.btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 300px;
+ left: 220px;
+ top: 105px;
+ padding: 10px 20px;
+ background-color: #ffffff ;
+ color: #000000;
+}
+
+
+
+
+.confpassword{
+ top: 40px;
+}
+.confpassword-box{
+ top: 70px;
+ left: -235px;
+ background-color: rgb(255, 255, 255);
+ width: 400px;
+ height: 30px;
+}

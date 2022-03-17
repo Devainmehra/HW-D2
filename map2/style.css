@@ -1,0 +1,293 @@
+
+*{
+ margin: 0px;
+ padding: 0px;
+ position: relative;
+ }
+
+ a:link{
+  text-decoration: none;
+  color: black;
+ } 
+
+ .option-1 a{
+  color: rgb(255, 255, 255);
+ }
+
+ .option-2 a{
+  color: rgb(0, 0, 0);
+ }
+ .option-3 a{
+  color: rgb(255, 255, 255);
+ }
+ .option-4 a{
+  color: rgb(255, 255, 255);
+ }
+
+ 
+ 
+ .blue-part{
+  /* position: absolute; */
+  background-color: #27a5d4;
+  width: screen;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ .header{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ }
+
+ .option-1{
+  position: absolute;
+  top : 25px;
+  left: 70px;
+ }
+
+ .option-1 :hover{
+  color: #F3DB04;
+  font-size: larger;
+ }
+
+.option-3 :hover{
+  color: #F3DB04;
+  font-size: larger;
+ }
+
+
+
+ .option-2{
+  position: absolute;
+  top : 25px;
+  left: 280px;
+    text-decoration: underline;
+
+ }
+
+ .option-2:link{
+  color: antiquewhite;
+ }
+
+ .option-3{
+  position: absolute;
+  top : 25px;
+  left: 490px;
+ }
+
+ .option-4{
+  position: absolute;
+  top : 25px;
+  left: 700px;
+ }
+
+ .map-img{
+  top: 5px;
+  left: 5px;
+ }
+
+ .blur-options{
+ background-color: hsla(0, 0%, 0%, 0.4);
+  width: screen;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ .text{
+ position: absolute;
+ left: 60px;
+ font: bold;
+ font-size: 24px;
+ }
+
+ .bar-white{
+ 
+ position: absolute;
+ width: 500px;
+ height: 30px;
+ left: 304px;
+
+background: #FFFFFF;
+border-radius: 7px;
+}
+
+ .bar-green{
+ 
+ position: absolute;
+ width: 200px;
+ height: 30px;
+ left: 304px;
+
+background: #B8CF29;
+border-radius: 7px;
+}
+
+.number
+{
+ position: absolute;
+ height: 20px;
+ left: 850px;
+}
+
+.bus-1{
+ position: absolute;
+ top: 600px;
+ right: 370px;
+}
+
+.bus-2{
+ position: absolute;
+ image-orientation: flip ;
+ top: 893px;
+ left: 370px;
+}
+
+.bus-3{
+position: absolute;
+ image-orientation: flip ;
+ top: 865px;
+ left: 970px;
+}
+
+.bus-4{
+ position: absolute;
+ image-orientation: flip ;
+ top: 881px;
+ left: 170px;
+}
+
+.button-options{
+ position: absolute;
+ padding: 20px 20px;
+ border: 3px solid black;
+ color: #ffffff;
+ background-color: #000000;
+ left: 1300px;
+ width: 140px;
+ height: 25px;
+ box-sizing: border-box;
+ border-radius: 540px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* .button-options:hover{
+  z-index: 2;
+ border: 3px solid rgba(58, 56, 56, 0.651);
+ position: absolute;
+ top: 40px ;
+ width: 100px;
+ height: 80px;
+} */
+
+.hover{
+  position: absolute;
+width: 536px;
+height: 200px;
+left: 985px;
+top: 1px;
+
+background: rgba(255, 255, 255, 0.64);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 20px 0px 20px 20px;
+}
+
+.text1{
+  position: absolute;
+width: 177px;
+height: 55px;
+left: 15%;
+top: 20px;
+
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #000000;
+border-radius: 10px;
+}
+.text1 a{
+  color: white;
+}
+.text1 :hover{
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: large;
+}
+.text2 :hover{
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: large;
+}
+.text3 :hover{
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: large;
+}
+.text4 :hover{
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: large;
+}
+.text2 a{
+  color: white;
+}
+.text3 a{
+  color: white;
+}
+.text4 a{
+  color: white;
+}
+
+.text2{
+  position: absolute;
+width: 177px;
+height: 55px;
+left: 55%;
+top: 20px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: #000000;
+border-radius: 10px;
+}
+
+.text3{
+  position: absolute;
+width: 177px;
+height: 55px;
+left: 55%;
+top: 100px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: #000000;
+border-radius: 10px;
+}
+
+.text4{
+  position: absolute;
+width: 177px;
+height: 55px;
+left: 15%;
+top: 100px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: #000000;
+border-radius: 10px;
+}
+
+
